@@ -4,13 +4,13 @@
 
 var config = {
   // - Your app's id on moneypot.com
-  app_id: 666,                             // <----------------------------- EDIT ME!
+  app_id: 1321,                             // <----------------------------- EDIT ME!
   // - Displayed in the navbar
-  app_name: 'BIT Dice',
+  app_name: 'Dark Dice',
   // - For your faucet to work, you must register your site at Recaptcha
   // - https://www.google.com/recaptcha/intro/index.html
-  recaptcha_sitekey: '6Ld_lg4TAAAAAMWR85zUNZ_F-rxPFAaignrCEbNC',  // <----- EDIT ME!
-  redirect_uri: 'http://bitdice.github.io',
+  recaptcha_sitekey: '6LexiiMTAAAAAPgk61SMBRTB27tlrzKl87arwrgN',  // <----- EDIT ME!
+  redirect_uri: 'http://thehenker.github.io/dicegame/',
   mp_browser_uri: 'https://www.moneypot.com',
   mp_api_uri: 'https://api.moneypot.com',
   chat_uri: '//socket.moneypot.com',
@@ -20,7 +20,7 @@ var config = {
   force_https_redirect: !isRunningLocally(),
   // - Configure the house edge (default is 1%)
   //   Must be between 0.0 (0%) and 1.0 (100%)
-  house_edge: 0.01,
+  house_edge: 0.02,
   chat_buffer_size: 250,
   // - The amount of bets to show on screen in each tab
   bet_buffer_size: 25
